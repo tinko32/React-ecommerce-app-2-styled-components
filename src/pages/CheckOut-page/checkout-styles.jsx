@@ -1,13 +1,16 @@
-.checkout-page {
+import styled from "styled-components";
+
+export const CheckOutPageContainer = styled.div`
     width: 55%;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px auto 0;
-  
-    .checkout-header {
-      width: 100%;
+`
+
+export const CheckOutHeaderContainer = styled.div`
+  width: 100%;
       padding: 10px 0;
       display: flex;
       justify-content: space-between;
@@ -27,6 +30,4 @@
       margin-top: 30px;
       margin-left: auto;
       font-size: 36px;
-    }
-  }
-  
+`
